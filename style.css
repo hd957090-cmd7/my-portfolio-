@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+  background-color: #6a0dad; /* Purple header background matching the reference */
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.profile_name {
+  float: left;
+  padding: 5px;
+}
+
+.profile_name h1 {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.profile_name p {
+  font-size: 14px;
+  color: #e0e0e0;
+}
+
+.nav_links {
+  display: flex;
+  gap: 20px;
+}
+
+.topmenu {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Navigation Hover Effects (Task 2 Specifications) */
+.topmenu:hover {
+  color: #ffffff;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/* Content Sections */
+.section {
+  padding: 50px 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-size: 28px;
+  color: #6a0dad;
+  border-bottom: 2px solid #6a0dad;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+.about-container p {
+  margin-bottom: 15px;
+  font-size: 17px;
+  color: #444;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill-card {
+  background-color: #6a0dad;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-left: 4px solid #6a0dad;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  color: #6a0dad;
+}
+
+/* Recommendations */
+.recommendation-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-style: italic;
+}
+
+.recommendation-card footer {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: bold;
+  color: #6a0dad;
+}
